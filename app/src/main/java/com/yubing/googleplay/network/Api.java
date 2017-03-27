@@ -12,4 +12,6 @@ import retrofit2.http.GET;
 public interface Api {
     @GET("hot")
     Call<List<String>> ListHot();
+    @GET("recommend")
+    Call<List<String>> ListRecommend();
 }
